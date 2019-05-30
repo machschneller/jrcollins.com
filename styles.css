@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+
+html { 
+  	background:
+  		linear-gradient(
+          	rgba(0, 0, 0, 0.7), 
+          	rgba(0, 0, 0, 0.7)
+        ),
+        url("background.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	margin: 0;
+	/*background-color: black;*/
+}
+
+body, h1, a, a:hover {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#page {
+	height: 100%;
+	/*background-image: url("background.jpg");*/
+	/*opacity: 0.9;*/
+}
+
+#page-content {
+	/*opacity: 1;*/
+	color: white;
+	display: flex;
+	height: 100vh;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#h1-name {
+	margin-bottom: 0;
+}
+
+#resume-button {
+	width: 100px;
+}
+
+#name-caption {
+	text-align: center;
+}
+
+.contact, a {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
