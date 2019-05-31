@@ -6,7 +6,7 @@ html {
           	rgba(0, 0, 0, 0.7),
           	rgba(0, 0, 0, 0.7)
         ),
-        url("../Resources/background.jpg") no-repeat center center fixed; 
+        url("../Resources/background.jpg") no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -42,10 +42,6 @@ body, h1, a, a:hover {
 	margin-bottom: 0;
 }
 
-#resume-button {
-	width: 100px;
-}
-
 #name-caption {
 	text-align: center;
 }
@@ -57,3 +53,32 @@ body, h1, a, a:hover {
 a:hover {
 	color: red;
 }
+
+#resume-button {
+	width: 100px;
+}
+
+/* scalable fonts for mobile */
+@media only screen and (max-device-width: 1024px) {
+	h1.scalable_font {
+		font-size: 4vmax;
+	}
+
+  p.scalable_font, a.scalable_font, span.scalable_font {
+    font-size: 2vmax;
+  }
+
+  #resume-button {
+    width: 10vmax;
+  }
+
+  #resume-button-anchor {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
