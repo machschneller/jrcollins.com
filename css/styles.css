@@ -59,11 +59,29 @@ a:hover {
 }
 
 #resume-button {
-	width: 100px;
+     background-color: darkred;
+     border: 2px solid #DDD;
+     border-radius: 30px;
+	width: 80px;
+}
+
+#resume-button p {
+     margin: 0;
+     text-align: center;
+}
+
+#resume-button-anchor {
+     text-decoration: none;
 }
 
 /* scalable fonts for mobile */
 @media only screen and (max-device-width: 1024px) {
+
+     #page {
+          width: 85%;
+          margin: 0 auto;
+     }
+
 	h1.scalable_font {
 		font-size: 4vmax;
 	}
