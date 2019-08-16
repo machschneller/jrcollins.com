@@ -44,6 +44,7 @@ body, h1, a, a:hover {
 
 #h1-name {
 	margin-bottom: 0;
+     font-size: 32pt;
 }
 
 #name-caption {
@@ -84,7 +85,7 @@ div#resume-button:hover {
      text-decoration: none;
 }
 
-p { font-size: 16pt; }
+p, a, span { font-size: 16pt; }
 
 /* scalable fonts for mobile */
 @media only screen and (max-device-width: 1024px) {
@@ -94,25 +95,19 @@ p { font-size: 16pt; }
           margin: 0 auto;
      }
 
-	h1.scalable_font {
-		font-size: 4vmax;
+	h1 {
+		font-size: 26pt;
 	}
 
-  p.scalable_font, a.scalable_font, span.scalable_font {
-    font-size: 2vmax;
-  }
+     #resume-button-anchor {
+          width: 50%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+     }
 
-  #resume-button {
-    width: 10vmax;
-  }
-
-  #resume-button-anchor {
-    width: 50%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-  }
+     p { text-align: center; }
 
 }
 
