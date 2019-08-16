@@ -70,9 +70,9 @@ div#resume-button:hover {
 
 #resume-button {
      background-color: darkred;
-     border: 2px solid #DDD;
+     border: 3px solid #DDD;
      border-radius: 30px;
-	width: 80px;
+	width: 100px;
 }
 
 #resume-button p {
@@ -83,6 +83,8 @@ div#resume-button:hover {
 #resume-button-anchor {
      text-decoration: none;
 }
+
+p { font-size: 16pt; }
 
 /* scalable fonts for mobile */
 @media only screen and (max-device-width: 1024px) {
