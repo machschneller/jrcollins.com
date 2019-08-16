@@ -58,6 +58,16 @@ a:hover {
 	color: red;
 }
 
+a#resume-button-anchor:hover {
+     color: darkred;
+     font-weight: bold;
+}
+
+div#resume-button:hover {
+     background-color: white;
+     border-color: darkred;
+}
+
 #resume-button {
      background-color: darkred;
      border: 2px solid #DDD;
