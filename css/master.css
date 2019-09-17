@@ -78,8 +78,14 @@ p, a, span { font-size: 16pt; }
      bottom: 0;
 } */
 
-.LI-badge-container.horizontal.dark {
-     border-radius: 15px !important;
+.LI-badge-container.horizontal.dark, .LI-badge-container.horizontal.dark *, .LI-background {
+     border-radius: 5px !important;
+     background-color: #1a1a1a !important;
+}
+
+.LI-background {
+     border: 2px solid black;
+     padding: 5px;
 }
 
 /* scalable fonts for mobile */
