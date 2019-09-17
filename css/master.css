@@ -1,21 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium Web');
 
-html.loaded {
-     background:
-  		linear-gradient(
-          	rgba(0, 0, 0, 0.7),
-          	rgba(0, 0, 0, 0.7)
-          ),
-          url("../Resources/background.jpg") no-repeat center center fixed;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
 
-html.loading {
-     background-color: black;
-}
 
 
 body {
@@ -87,11 +72,11 @@ div#resume-button:hover {
 
 p, a, span { font-size: 16pt; }
 
-.linkedin-badge {
+/* .linkedin-badge {
      position: fixed;
      left: 0;
      bottom: 0;
-}
+} */
 
 .LI-badge-container.horizontal.dark {
      border-radius: 15px !important;

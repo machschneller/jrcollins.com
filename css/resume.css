@@ -1,0 +1,163 @@
+html {
+	background-color: #eeeeee;
+}
+
+body {
+	color: #1a1a1a;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+}
+
+/* nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+} */
+
+#top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	width: 0;
+}
+
+h1 { font-size: 30pt; }
+h2 { font-size: 25pt; }
+h3 { font-size: 18pt; }
+h4 { font-size: 14pt; }
+li { font-size: 14pt; }
+
+a:hover {
+	color: #C30017;
+}
+
+nav {
+	height: 40px;
+	border-bottom: 2px solid #1a1a1a;
+}
+
+.navlink {
+	color: #1a1a1a;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+a.email {
+	color: #C30017;
+}
+
+.separator {
+	height: 3px;
+	width: 40%;
+	background-color: #1a1a1a;
+	margin: 20px 0;
+}
+
+.general_flex {
+	display: flex;
+	flex-flow: column nowrap;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.flex_row {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	max-width: 600px;
+}
+
+.flex_row p {
+	padding: 0 20px;
+}
+
+.rowLeft {
+	width: 75%;
+}
+
+.last {
+	margin-bottom: 25px;
+}
+
+.rowRight {
+	width: 25%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+/* .skillRow {
+	width: 50%;
+} */
+
+#flex_pagebody {
+	width: 100%;
+	background-color: #eeeeee;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.resumeRow {
+	width: 65%;
+	background-color: #eeeeee;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.skills { width: 45%; }
+
+.resumeLogo {
+	width: 80%;
+	max-width: 150px;
+}
+
+footer {
+	margin: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+
+	h2 {
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+
+	.separator { width: 40%; }
+
+	.flex_row {
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
+	.flex_row p {
+		padding: 0;
+		margin: 5px 0;
+	}
+
+	.resumeRow {
+		flex-flow: column-reverse nowrap;
+		align-items: center;
+		width: 70%;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	.resumeLogo {
+		margin-top: 50px;
+		max-width: 125px;
+	}
+
+	.rowLeft, .rowRight {
+		width: 100%;
+	}
+}
