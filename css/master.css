@@ -87,6 +87,16 @@ div#resume-button:hover {
 
 p, a, span { font-size: 16pt; }
 
+.linkedin-badge {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+}
+
+.LI-badge-container.horizontal.dark {
+     border-radius: 15px !important;
+}
+
 /* scalable fonts for mobile */
 @media only screen and (max-device-width: 1024px) {
 

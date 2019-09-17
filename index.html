@@ -12,10 +12,15 @@
 	<link rel="stylesheet" type="text/css" href="./css/master.css">
 	<link rel="shortcut icon" type="image/png" href="Resources/0.jpg"/>
 
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script type="text/javascript" src="./scripts/load_background.js"></script> -->
 </head>
 <body>
+
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 
 	<script type="text/javascript" src="./scripts/mobile_detector.js"></script>
 
@@ -30,16 +35,15 @@
 				</div>
 			</a>
 
-			<script type="text/javascript">
-				if (window.mobilecheck()) {
-					document.getElementById("resume-button-anchor").href = "./resume/Jeffrey Collins Resume.pdf";
-				}
-				else {
-					document.getElementById("resume-button-anchor").href = "./resume";
-				}
-			</script>
-
 			<p class="contact"><a href="mailto:jeff@jrcollins.com" target="_blank" tabindex="2">jeff@jrcollins.com</a><span> | </span><a href="https://github.com/insaneocto/" target="_blank" tabindex="2">GitHub</a><span> | </span><a  href="https://www.linkedin.com/in/jeffreycollins1/" target="_blank" tabindex="3">LinkedIn</a><span> | </span><a  href="https://www.facebook.com/mx5mia" target="_blank" tabindex="3">Facebook</a><span> | <span style="display: inline-block;">(408) 605-5903</span></span></p>
+
+			<br><br>
+
+			<div class="linkedin-badge">
+
+				<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="jeffreycollins1"><a class="LI-simple-link" href='https://www.linkedin.com/in/jeffreycollins1?trk=profile-badge'>Jeff Collins</a></div>
+
+			</div>
 		</div>
 	</div>
 </body>
