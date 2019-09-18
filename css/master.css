@@ -27,13 +27,19 @@ body, h1, a, a:hover {
 	align-items: center;
 }
 
-#h1-name {
+h1 {
 	margin-bottom: 0;
      font-size: 32pt;
 }
 
+h2 {
+	margin: 0;
+	text-align: center;
+}
+
 #name-caption {
 	text-align: center;
+	max-width: 700px;
 }
 
 .contact, a {
@@ -96,9 +102,8 @@ p, a, span { font-size: 16pt; }
           margin: 0 auto;
      }
 
-	h1 {
-		font-size: 26pt;
-	}
+	h1 { font-size: 26pt; }
+	h2 { font-size: 16pt; }
 
      #resume-button-anchor {
           width: 50%;
