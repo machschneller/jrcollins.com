@@ -1,16 +1,21 @@
-html.loaded {
+html { background-color: #eeeeee; }
+
+.hero-image {
+     height: 45vh;
+     width: 100vw;
      background:
   		linear-gradient(
-          	rgba(0, 0, 0, 0.5),
-          	rgba(0, 0, 0, 1)
+          	rgba(0, 0, 0, 0.6),
+          	rgba(0, 0, 0, 0.6)
           ),
-          url("../Resources/background.jpg") no-repeat center center fixed;
+          url("../Resources/background.jpg");
+          background-size: auto 50%;
+          background-repeat: no-repeat;
+          background-position: center;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-}
-
-html.loading {
-     background-color: black;
+     z-index: -1;
+     justify-content: center;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="loaded">
+<html>
 <head>
 	<title>Jeff Collins' Website</title>
 
@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="./css/master.css">
 	<link rel="stylesheet" type="text/css" href="./css/landing.css">
+	<link rel="stylesheet" type="text/css" href="./css/resume.css">
 	<link rel="shortcut icon" type="image/png" href="Resources/0.jpg"/>
 
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,19 +19,35 @@
 </head>
 <body>
 
+
 	<div id="page">
 		<div id="page-content">
-			<h1 id="h1-name">Jeff Collins</h1>
+
+			<div class="hero-image general_flex">
+				<img id="name-banner" src="./Resources/jeff.png" alt="Jeff Collins">
+			</div>
+
+			<br>
+
 			<h2>Web / Software Engineer with industry experience.</h2>
+
+			<div class="separator short"></div>
+
+			<div class="general_flex nav">
+
+	               <div class="flex_row">
+	                    <a class="navlink resume_button" href="../">Home</a>
+	                    &nbsp;&nbsp;&nbsp;&nbsp;	&#149&nbsp;&nbsp;&nbsp;&nbsp;
+	                    <a class="navlink resume_button" href="./resume">Resume</a>
+	               </div>
+
+			</div>
+
 			<p id="name-caption">Hey! I'm a techie and a car nut attending Santa Clara University, a Fourth-Year pursuing a B.S. in Web Design and Engineering from the Computer Engineering department.<br></p>
 
-			<a id="resume-button-anchor" tabindex="1" href="./resume">
-				<div id="resume-button">
-					<p>Resume</p>
-				</div>
-			</a>
+			<div class="separator short"></div>
 
-			<p class="contact"><a href="mailto:jeff@jrcollins.com" target="_blank" tabindex="2">jeff@jrcollins.com</a><span> | </span><a href="https://github.com/insaneocto/" target="_blank" tabindex="2">GitHub</a><span> | </span><a  href="https://www.linkedin.com/in/jeffreycollins1/" target="_blank" tabindex="3">LinkedIn</a><span> | </span><a  href="https://www.facebook.com/mx5mia" target="_blank" tabindex="3">Facebook</a><span> | <span style="display: inline-block;">(408) 605-5903</span></span></p>
+			<p class="contact"><a class="navlink" href="mailto:jeff@jrcollins.com" target="_blank" tabindex="2">jeff@jrcollins.com</a><span> | </span><a class="navlink" href="https://github.com/insaneocto/" target="_blank" tabindex="2">GitHub</a><span> | </span><a class="navlink" href="https://www.linkedin.com/in/jeffreycollins1/" target="_blank" tabindex="3">LinkedIn</a><span> | </span><a class="navlink" href="https://www.facebook.com/mx5mia" target="_blank" tabindex="3">Facebook</a><span> | <span class="navlink" style="display: inline-block;">(408) 605-5903</span></span></p>
 		</div>
 	</div>
 </body>
