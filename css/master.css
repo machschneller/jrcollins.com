@@ -5,26 +5,20 @@
 
 body {
 	margin: 0;
+	color: #eeeeee;
 }
 
 body, h1, a, a:hover {
 	font-family: 'Titillium Web', sans-serif;
 }
 
-#page {
-	height: 100%;
-	/*background-image: url("background.jpg");*/
-	/*opacity: 0.9;*/
-}
-
 #page-content {
-	/*opacity: 1;*/
-	color: white;
+	color: #1a1a1a;
 	display: flex;
-	height: 100vh;
 	flex-flow: column nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	height: 100vh;
 }
 
 h1 {
@@ -32,22 +26,29 @@ h1 {
      font-size: 32pt;
 }
 
+#name-banner { width: 90%; }
+
+.separator.short { width: 65px; }
+
+.general_flex.nav { margin: 10px; }
+
 h2 {
-	margin: 0;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
 #name-caption {
 	text-align: center;
 	max-width: 700px;
+	margin-top: 0;
 }
 
 .contact, a {
-	color: white;
+	color: #1a1a1a;
 }
 
 a:hover {
-	color: red;
+	color: darkred;
 }
 
 a#resume-button-anchor:hover {
@@ -56,15 +57,16 @@ a#resume-button-anchor:hover {
 }
 
 div#resume-button:hover {
-     background-color: white;
-     border-color: darkred;
+     background-color: #eeeeee;
+     border-color: #1a1a1a;
 }
 
 #resume-button {
      background-color: darkred;
-     border: 3px solid #DDD;
+     border: 3px solid darkred;
      border-radius: 30px;
 	width: 100px;
+	color: #eeeeee;
 }
 
 #resume-button p {
@@ -72,11 +74,15 @@ div#resume-button:hover {
      text-align: center;
 }
 
-#resume-button-anchor {
+#resume-button p:hover { color: #1a1a1a; }
+
+#resume-button-anchor, .navlink, a {
      text-decoration: none;
 }
 
 p, a, span { font-size: 16pt; }
+
+a.navlink { font-size: 12pt; font-weight: bold; }
 
 /* .linkedin-badge {
      position: fixed;
