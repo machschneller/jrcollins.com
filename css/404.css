@@ -1,0 +1,10 @@
+#flex_pagebody {
+     height: 100vh;
+     /* justify-content: space-around; */
+}
+
+h1, h2, h3, p { text-align: center; }
+
+h1 {
+     font-size: 72px !important;
+}
