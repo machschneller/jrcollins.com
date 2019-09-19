@@ -132,7 +132,7 @@ footer {
 
 	.separator { width: 40%; }
 
-	.flex_row {
+	.flex_row:not(.nav) {
 		flex-flow: column nowrap;
 		align-items: center;
 	}
