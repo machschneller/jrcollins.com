@@ -121,5 +121,9 @@ a.navlink { font-size: 12pt; font-weight: bold; }
 
      p { text-align: center; }
 
+	.LI-badge-container.horizontal.dark, .LI-badge-container.horizontal.dark *, .LI-background {
+	     color: darkred;
+	}
+
 }
 
