@@ -19,3 +19,7 @@ html { background-color: #eeeeee; }
      z-index: -1;
      justify-content: center;
 }
+
+.tagline { margin: 0; }
+
+p.tagline { margin-bottom: 15px; }
