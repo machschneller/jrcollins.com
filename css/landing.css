@@ -22,4 +22,4 @@ html { background-color: #eeeeee; }
 
 .tagline { margin: 0; }
 
-p.tagline { margin-bottom: 15px; }
+p.tagline.end { margin-bottom: 15px; }
