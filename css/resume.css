@@ -110,7 +110,7 @@ a.email {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
-	/* margin-top: 25px; */
+	margin-bottom: 50px;
 }
 
 .skills { width: 45%; }
@@ -161,4 +161,6 @@ footer {
 	.rowLeft, .rowRight {
 		width: 100%;
 	}
+
+	.foot { margin-bottom: 70px; }
 }
