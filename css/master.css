@@ -32,6 +32,8 @@ h1 {
 
 .general_flex.nav { margin: 10px; }
 
+div.dot { line-height: 100%; }
+
 h2 {
 	margin-bottom: 10px;
 	text-align: center;
@@ -82,6 +84,10 @@ div#resume-button:hover {
 
 p, a, span { font-size: 16pt; }
 
+p.tagline {
+	text-align: center;
+}
+
 a.navlink { font-size: 12pt; font-weight: bold; }
 
 /* .linkedin-badge {
@@ -122,10 +128,13 @@ a.navlink { font-size: 12pt; font-weight: bold; }
           align-items: center;
      }
 
-     p { text-align: center; }
-
 	.LI-badge-container.horizontal.dark, .LI-badge-container.horizontal.dark *, .LI-background {
 	     color: darkred;
 	}
 
 }
+
+@media only screen and (max-device-width: 500px) {
+	p {
+		padding: 10px 0;
+	}
