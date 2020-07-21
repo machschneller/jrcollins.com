@@ -113,7 +113,11 @@ a.email {
 	margin-bottom: 50px;
 }
 
-.skills { width: 45%; }
+.skills {
+	width: 45%;
+	max-width: 850px;
+	min-width: 600px;
+}
 
 .resumeLogo {
 	width: 80%;
@@ -124,7 +128,7 @@ footer {
 	margin: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 
 	h2 {
 		margin-bottom: 0;
@@ -163,4 +167,11 @@ footer {
 	}
 
 	.foot { margin-bottom: 70px; }
+
+	.resumeRow.skills {
+		align-items: flex-start;
+		width: auto;
+		padding: 0 0 0 35px;
+		min-width: auto;
+	}
 }
